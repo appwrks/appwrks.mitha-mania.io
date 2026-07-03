@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mithai Mania</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background-color: #fffaf3;
+    }
+
+    .banner {
+      background-image: url('assets/background.png');
+      background-size: cover;
+      background-position: center;
+      color: #fcecd4;
+      text-align: center;
+      padding: 80px 20px;
+    }
+
+    .banner-content {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+
+    .banner img {
+      width: 90px;
+      height: 90px;
+      border-radius: 20px;
+    }
+
+    .banner h1 {
+      margin: 0;
+      font-size: 72px;
+    }
+
+    .content {
+      padding: 40px 20px;
+      flex: 1;
+      line-height: 24px;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 24px;
+    }
+
+    .links a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #b04a2a;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+    }
+
+    .links a:hover {
+      background-color: #8f3920;
+    }
+
+    .footer {
+      background-color: #f1f1f1;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .social-links a,
+    .store-links a {
+      margin: 0 10px;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .app-store {
+      height: 32px;
+    }
+
+    @media (max-width: 600px) {
+      .banner h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    <div class="banner-content">
+      <img src="assets/icon.png" alt="Mithai Mania icon">
+      <h1>मिठाई Mania</h1>
+    </div>
+  </div>
+
+  <div class="content">
+    <h2>Welcome to Mithai Mania</h2>
+    <p>Choose one of the pages below to continue.</p>
+    <div class="links">
+      <a href="privacy-policy.html">Privacy Policy</a>
+      <a href="support.html">Support</a>
+    </div>
+  </div>
+
+  <div class="footer">
+    <div class="social-links">
+      <p>Reach out to: creations@appswrks.com</p>
+    </div>
+    <hr>
+    <div class="social-links">
+      <a href="https://www.facebook.com/profile.php?id=61574675146662" target="_blank">
+        <img src="assets/facebook.png" class="app-store" alt="Facebook">
+      </a>
+      <a href="https://www.instagram.com/mithai__mania/" target="_blank">
+        <img src="assets/instagram.png" class="app-store" alt="Instagram">
+      </a>
+    </div>
+    <hr>
+    <div class="store-links">
+      <a href="https://play.google.com" target="_blank">
+        <img src="assets/google-play.png" class="app-store" alt="Get it on Google Play">
+      </a>
+      <a href="https://apps.apple.com/us/app/mithai-mania/id6743081833" target="_blank">
+        <img src="assets/app-store.png" class="app-store" alt="Download on the App Store">
+      </a>
+    </div>
+  </div>
+</body>
+</html>
